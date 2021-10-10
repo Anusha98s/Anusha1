@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+    <body>
+        <p id="RandomValue"> Showing Array using Javascript </p>
+        <script>
+            function Student(Name, Age, MobileNo){
+                this.Name = Name;
+                this.Age = Age;
+                this.MobileNo = MobileNo;
+
+            }
+            const Sasi = new Student("Sasi",23,7780175037);
+
+            document.getElementById("RandomValue").innerHTML=
+           Sasi.Name + " has age" + Sasi.Age + " has mobile no " + Sasi.MobileNo;
+        </script>
+    </body>
+</html>
