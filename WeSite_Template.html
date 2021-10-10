@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        .body {
+            padding: 40px;
+            margin:0%;
+        }
+
+        .header {
+            background-color: rgb(212, 41, 133);
+            text-align: center;
+            padding:25px;
+            color: lightseagreen;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+        .navbar a{
+            background-color: black;
+            color: chocolate;
+            padding:30px;
+            float:left;
+            font-family: 'Times New Roman', Times, serif;
+            text-align:justify;
+
+
+        }
+        .navbar:hover{
+            color:black;
+            background-color: rgb(233, 113, 177);
+        }
+        .footer {
+            background-color: darkkhaki;
+            text-align:center;s
+        }
+        .column{
+            float:left;
+            width:33.33;
+            padding:15px;
+
+        }
+
+        .row:after{
+            content:"";
+            display:table;
+            clear: both;
+            @media screen and (max-width:600px) {
+              .column {
+               width: 100%;
+                 }
+            }
+        }
+        
+    </style>
+    <div class="header">
+        <h1>welcome to my Instagram</h1>
+    </div>
+    <div class="navbar">
+            <a href="#">Home Page</a>
+            <a href="#">Contact Us</a>
+            <a href="#">About Us</a>
+            <a href="#">First Page</a>
+            <a href="#">Contact Us</a>
+            <a href="#">About Us</a>
+            <a href="#">Second Page</a>
+            <a href="#">Contact Us</a>
+            <a href="#">About Us</a>
+    </div>
+    
+
+        <div class="row">
+            <div class="column">
+              <h2>Column</h2>
+              <p> “Many of life’s failures are people who did not realize how close they were to success when they gave up...!!!!</p>
+            </div>
+            </div>
+            <div class="row">
+                <div class="column">
+                  <h2>Column</h2>
+                  <p>“You only live once, but if you do it right, once is enough.......!!</p>
+                </div>
+                </div>
+                <div class="row">
+                    <div class="column">
+                      <h2>Column</h2>
+                      <p> “The purpose of our lives is to be happy.”. !!.........!!</p>
+                    </div>
+                    </div>
+                    <div class="footer">
+                        <h2>footer of the template</h2>
+                    </div>
+
+
+</body>
+</html>

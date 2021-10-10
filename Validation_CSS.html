@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Welcome to login Form for Onlline hackathon 2021</h1>
+     <form action=""onsubmit=" "type>
+    <p>
+        <label id="nameLbl">Enter Your Name</label>
+        <input id="nameinp" inputmode="text" type="text" onfocus="this.value'' "value="Your name is A-Z" type="text">
+
+    </p>
+    <p>
+        <label id="EmailLbl">Enter Your Email</label>
+        <input id="EmailInp" inputmode="email" type="text">
+    </p>
+    <p>
+        <label id="Indian_Radio_Btn">Are you a Indian Citizen</label>
+        <input type="radio" id="Nationality_Radio_Btn" onkeypress="">
+    </p>
+    <p>
+        <input type="range">
+        <input type="url">
+    </p>
+
+    <p>
+        <label id="MobileLbl">Enter Your Mobile no</label>
+        <input id="MobileInp" type="text" inputmode="numeric">
+    </p>
+    <p>
+        <label id="passwordLbl">Enter Your Password</label>
+        <input id="passwordInp" type="password">
+        <label id="verifyPassLbl">Enter again</label>
+        <input id="verifyPassIntype" type="password">
+    </p>
+    <p>
+        <input class="button" type="submit" pattern="(?=.*\d)(?=.*[a-z])(?=.[A-Z]).{8,}"" value="Click here to submit">
+        <input class="reset_Btn"  type="reset" value="reset Form">
+    </p>
+    </form>
+    
+    <style>
+        .button{
+            background-color: coral;
+            color: darkgreen;
+            padding: 14px 20px;
+            margin: 8px 0;
+            border-radius:20px;
+            border:none;
+            cursor:pointer;
+            width:30%;
+            opacity:0.9;
+
+        }
+        button:hover{
+            opacity:0.5;
+            border-radius: 15px;
+        }
+        input[type=text],input[type=password],input[type=email],input[type=number]{
+            width:100%;
+            padding:15px;
+            margin:5px 22px 0;
+            display:inline_block;
+            border:none;
+            border-radius: 15px;
+            background-color: salmon;
+        }
+    </style>
+</body>
+</html>
